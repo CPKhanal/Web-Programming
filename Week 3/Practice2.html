@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="post">
+
+        <fieldset>
+            <legend>Your details</legend>
+            <ol>
+                <li> Name <input type="text" name="Name"><br></li>
+                <li>Email <input type="email" name="Email"><br></li>
+                <li> Phone <input type="number" name="Phone"></li>
+            </ol>
+        </fieldset>
+
+        <fieldset>
+            <legend>Delivery address</legend>
+            <ol>
+                <li> Address <textarea name="" id="" cols="" rows="5"></textarea><br></li>
+                <li>Post code <input type="text" name="post code"><br></li>
+                <li> Country <input type="text" name="Country"></li>
+            </ol>
+        </fieldset>
+
+        <fieldset>
+            <legend>Card details</legend>
+            <ol>
+                <li>
+                    <fieldset>
+                        <legend>Card type</legend>
+                        <ol>
+                            <li><input type="radio" name="visa" value="visa">VISA</li>
+                            <li><input type="radio" name="AmEx" value="AmEx">AmEx</li>
+                            <li><input type="radio" name="Mastercard" value="Mastercard">Mastercard</li>
+                        </ol>
+                    </fieldset><br>
+                </li>
+                <li>Card number <input type="number" name="card number"><br></li>
+                <li> Security code <input type="number" name="Security code"></li>
+                <li> Name on card <input type="text" name="Name on card"></li>
+            </ol>
+        </fieldset>
+        <fieldset>
+            <input type="submit" name="Buy it!" value="Buy it!" style="border-radius: 20px;">
+        </fieldset>
+    </form>
+</body>
+
+</html>

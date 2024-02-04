@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form CP Khanal</title>
+    <meta name="author" content="Chandra Prakash Khanal">
+</head>
+
+<body>
+    <div>
+        <b> Name-Chandra Prakash Khanal<br>
+            Student ID-90541125612 </b><br>
+    </div>
+    <form action="" method="post">
+        <fieldset style="width: 800px;">
+            <div style="color: orange;">Order form</div><br>
+            <fieldset>
+                <legend>Basic Information</legend>
+                Name: <input type="text" name="name" value="Chandra Prakash Khanal" size="30" disabled><br>
+                Email: <input type="email" name="Email" value="cpkhanal0@gmail.com"><br>
+                Address: <textarea name="address" id="" cols="25" rows="5"></textarea><br>
+                Postcode: <input type="text" name="postcode">
+
+            </fieldset>
+            <fieldset>
+                <legend>Product Information</legend>
+                <table border="1">
+                    <tr>
+                        <th>Product</th>
+                        <th>Part Number</th>
+                        <th>Quantity</th>
+                        <th>Unit Price</th>
+                        <th>Subtotal</th>
+                    </tr>
+                    <tr>
+                        <td>Box</td>
+                        <td>AC 100</td>
+                        <td></td>
+                        <td>$5</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Coffee Table</td>
+                        <td>AC 200</td>
+                        <td></td>
+                        <td>$100</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Chair</td>
+                        <td>AC 300</td>
+                        <td></td>
+                        <td>$150</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Desk</td>
+                        <td>AC 400</td>
+                        <td></td>
+                        <td>$120</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Computer Table</td>
+                        <td>AC 500</td>
+                        <td></td>
+                        <td>$130</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" style="text-align: end;">Total:</td>
+                        <td></td>
+                    </tr>
+                </table>
+
+            </fieldset>
+            <b>Credit Card Information</b><br>
+            Card Type: <br>
+            <input type="radio" name="Mastercard" value="Mastercard">Mastercard &nbsp; &nbsp; &nbsp;Card Number: <input
+                type="text"><br>
+            <input type="radio" name="visa" value="visa">Visa <br>
+            <input type="radio" name="gift card" value="gift card">Gift Card
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Expiry date: <input type="date"><br>
+            <b>Delivery Address:</b> <textarea name="" id="" cols="25" rows="5"></textarea><br>
+            <input type="submit" name="send" value="Send Order">
+            <input type="reset" name="Clear" value="Clear Form">
+
+        </fieldset>
+    </form>
+</body>
+
+</html>

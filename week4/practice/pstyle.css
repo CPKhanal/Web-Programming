@@ -1,0 +1,26 @@
+h1{
+    
+    background-color:yellow;
+    color: green;
+    border:7px solid red;
+
+}
+h2{
+    color:blue;
+background-color: rgb(247, 188, 208);
+border: 2px dotted
+}
+p{
+    color: red;
+
+}
+.first::first-letter{
+color: rgb(42, 165,126);
+font-size: 50px;
+text-shadow: 5px 8px 9px yellow;
+}
+#p2{
+    background-color: rgb(118, 234, 118);
+    border: 5px dashed blue;
+    color: red;
+}

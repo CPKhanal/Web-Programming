@@ -1,0 +1,30 @@
+body{
+    background-color: bisque;
+}
+h1{
+    color:red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: 300;
+    height:20px ;
+    text-align: center;
+}
+p{
+    color: purple;
+    border: 2px solid black;
+    padding: 30px;
+    margin: 20px;
+}
+/*
+for ID we use # sign and for class we use dot(.)
+ */
+
+#paragraph2{
+    color:olive;
+    padding: 35px;
+    margin: 2px;
+
+}
+.class2{
+    background-color:snow;
+}

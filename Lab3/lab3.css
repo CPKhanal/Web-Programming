@@ -1,0 +1,89 @@
+/*
+Name-Chandra Prakash Khanal
+Student ID-90541125612
+*/
+header{
+    background-color: #60594D;
+    color: #cdd5d1;
+    border: 3px solid #cdd5d1;
+    padding: 10px;
+}
+h1 {
+    font-size: 3em; /* Adjust the font size as needed */
+}
+button{
+    border-radius: 15px;
+    margin: 0 10px;
+    margin: 0 3px; /* Adjust margin as needed */
+}
+nav{
+    text-align: center;
+    font-size: 12pt;
+}
+body{
+    display: flex; /* This two lines helps to reduce the gaps between header body and footer*/
+    flex-direction: column;
+}
+
+main{
+    background-color: #DDD78D;
+    color:#333333;
+}
+main h3 {
+    font-size: 1.5em; /* Larger than main text font */
+    font-weight: bold;
+}
+p{
+    font-size: 14pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+img{
+    float: right;
+    width: 25%;
+    margin: 10px;
+}
+blockquote {
+    background-color: #DCBF85; /* Gold Crayola background */
+    text-align: center; /* Centered text */
+    font-size: 14pt;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+ul{
+    font-size: 14pt;
+}
+
+ul li::marker {
+    font-weight: bold; /* Make the bullet point bold */
+}
+
+
+body {
+   font-family:sans-serif; 
+}
+
+footer{
+    background-color: #60594D;
+    color: #cdd5d1;
+    border: 3px solid #cdd5d1;
+    padding: 10px;
+    text-align: center;
+}
+footer a {
+    text-decoration: none; /* Remove underline from the link */
+    color: inherit; /* Inherit color from parent element */
+}
+
+footer a:hover {
+    color: #8B635C; /* Rose Taupe color on hover */
+}
+footer p {
+    font-size: 10pt;
+    font-style: italic;
+    text-align: right; 
+    margin-top: 20px; /* Add space between link and author line */
+}

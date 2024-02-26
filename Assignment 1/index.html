@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Chandra Prakash Khanal" />
-    <title>Chandra Prakash Khanal - Personal Portfolio</title>
-    <link rel="stylesheet" href= "style.css">
-  </head>
-  <body>
-   <!-- Header Section -->
-   <header>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Chandra Prakash Khanal" />
+  <title>Chandra Prakash Khanal - Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header>
     <nav>
       <div class="left"><span class="first-letter-red">C</span>P Khanal</div>
       <div class="right">
@@ -22,52 +24,57 @@
       </div>
     </nav>
   </header>
-    <!-- Main Content Section -->
-    <main>
-      <section class="firstSection">
-        <div class="leftSection">
-          Hi, My name is <span class="first-letter-red">Chandra Prakash</span>
-          and I am a <span id="element"></span>
-          <div class="buttons">
-                <a href="" target="_blank"><button class="btn">Download Resume</button></a>
-                <a href="https://Github.com/CPKhanal" target="_blank"><button class="btn">Visit Github</button></a>
-            </div>
+  <!-- Main Content Section -->
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        Hi, My name is <span class="first-letter-red">Chandra Prakash</span>
+        and I am a <span id="element"></span>
+        <div class="buttons">
+          <a href="" target="_blank"><button class="btn">Download Resume</button></a>
+          <a href="https://Github.com/CPKhanal" target="_blank"><button class="btn">Visit Github</button></a>
         </div>
-        <div class="rightSection">
-          <img src="bg.jpg" alt="my image"/>
-        </div>
-      </section>
-      
-      <section class="secondSection">
-        <div class="leftSection">
-           <h2>Hobbies and Activities</h2>
-           <ul>
-            <li>Web Development Projects</li>
-            <li>Learning New Technologies</li>
-            <li>Attending Coding Workshops and Hackathons</li>
-            <li>Networking and Community Involvement</li>
-            <li>Continuous Learning and Skill Enhancement</li>
-           </ul><br>
-        </div>
-        <div class="rightSection">
-            <h2>College</h2>
-            <p>I am enrolled in the Computer Programming program at Algonquin College, located at the Mississauga Campus. Algonquin College of Applied Arts and Technology is a publicly funded English-language institution situated in Ottawa, Ontario, Canada. The college operates three campuses across Ontario: the main campus in Ottawa, along with secondary campuses in Perth and Pembroke. The name "Algonquin College" pays homage to the First Nations Peoples who initially resided in the Ottawa Valley.</p><br>
-        </div>
-      </section>
-    </main>
-    <!-- Footer Section --> 
-    <footer>
-        <p>&copy; 2024 Chandra Prakash Khanal. All rights reserved.</p>
-    </footer>
-    <!-- Load library from the CDN -->
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+      </div>
+      <div class="rightSection">
+        <img src="bg.jpg" alt="my image" />
+      </div>
+    </section>
 
-    <!-- Setup and start animation! -->
-    <script>
-      var typed = new Typed("#element", {
-        strings: ["Learner.","Designer.", "Student."],
-        typeSpeed: 50,
-      });
-    </script>
-  </body>
+    <section class="secondSection">
+      <div class="leftSection">
+        <h2>Hobbies and Activities</h2>
+        <ul>
+          <li>Web Development Projects</li>
+          <li>Learning New Technologies</li>
+          <li>Attending Coding Workshops and Hackathons</li>
+          <li>Networking and Community Involvement</li>
+          <li>Continuous Learning and Skill Enhancement</li>
+        </ul><br>
+      </div>
+      <div class="rightSection">
+        <h2>College</h2>
+        <p>I am enrolled in the Computer Programming program at Algonquin College, located at the Mississauga Campus.
+          Algonquin College of Applied Arts and Technology is a publicly funded English-language institution situated in
+          Ottawa, Ontario, Canada. The college operates three campuses across Ontario: the main campus in Ottawa, along
+          with secondary campuses in Perth and Pembroke. The name "Algonquin College" pays homage to the First Nations
+          Peoples who initially resided in the Ottawa Valley.</p><br>
+      </div>
+    </section>
+  </main>
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 Chandra Prakash Khanal. All rights reserved.</p>
+  </footer>
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed("#element", {
+      strings: ["Learner.", "Designer.", "Student."],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
 </html>

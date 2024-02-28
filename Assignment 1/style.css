@@ -129,3 +129,50 @@ footer {
   width: 100%;
   padding: 10px;
 }
+.leftimage{
+  background-color: #ff004f;
+}
+.rightimage{
+  background-color: #ff004f;
+}
+
+.ImageSection{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 80px 0px;
+}
+.leftimage{
+  width: 40%;
+  border-radius: 15px;
+  height: 260px;
+}
+.rightimage{
+  width: 40%;
+  border-radius: 15px;
+  height: 260px;
+}
+#database-image{
+  background-image: url(database.jpg);
+  background-size: cover;
+}
+#linux-image{
+  background-image: url(linux.jpg);
+  background-size: cover;
+}
+#OOPs{
+  background-image: url(java.png);
+  background-size: contain;
+}
+#web-programming{
+  background-image: url(webprogramming.jpg);
+  background-size: cover;
+}
+#technical-communication{
+  background-image: url(technical\ communication.png);
+  background-size: cover;
+}
+#globalization{
+  background-image: url(globalization.jpg);
+  background-size: cover;
+}

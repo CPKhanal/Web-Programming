@@ -129,13 +129,6 @@ footer {
   width: 100%;
   padding: 10px;
 }
-.leftimage{
-  background-color: #ff004f;
-}
-.rightimage{
-  background-color: #ff004f;
-}
-
 .ImageSection{
   display: flex;
   justify-content: space-around;
@@ -174,5 +167,17 @@ footer {
 }
 #globalization{
   background-image: url(globalization.jpg);
+  background-size: cover;
+}
+#contact-me-bg ,#course-bg{
+  background-image: url(blue.jpg);
+  background-size: cover;
+}
+#door-image{
+  background-image: url(doors.jpg);
+  background-size: cover;
+}
+#train-image{
+  background-image: url(train.jpg);
   background-size: cover;
 }

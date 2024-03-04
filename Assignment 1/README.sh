@@ -1,11 +1,1 @@
 
-![Screenshot 2024-02-28 173911](https://github.com/CPKhanal/Web-Programming/assets/132903713/3ade3699-5a15-4ca8-8f97-d80578cf6b44)
-![Screenshot 2024-02-28 173919](https://github.com/CPKhanal/Web-Programming/assets/132903713/7782e572-44f8-4ef6-932b-3c53be3fb7ab)
-![Screenshot 2024-02-28 173945](https://github.com/CPKhanal/Web-Programming/assets/132903713/6d2c3c85-44d6-4aa2-89b0-17bce34b11f2)
-![Screenshot 2024-02-28 173954](https://github.com/CPKhanal/Web-Programming/assets/132903713/5a12d7c6-2e0d-4001-863f-2dc205215e72)
-![Screenshot 2024-02-28 173958](https://github.com/CPKhanal/Web-Programming/assets/132903713/979609d0-74e3-4e27-8480-9ce4974f559d)
-![Screenshot 2024-02-28 174017](https://github.com/CPKhanal/Web-Programming/assets/132903713/1ea17a85-0f6c-4a5f-8b41-e74badfd910d)
-![Screenshot 2024-02-28 174026](https://github.com/CPKhanal/Web-Programming/assets/132903713/0a2052f3-a800-4dc5-9431-89abf487efa6)
-![Screenshot 2024-02-28 174033](https://github.com/CPKhanal/Web-Programming/assets/132903713/fa44bdc2-619f-4456-8d99-df41dada3953)
-![Screenshot 2024-02-28 174036](https://github.com/CPKhanal/Web-Programming/assets/132903713/92f45f4c-8c72-4825-93c9-35a1a6b42345)
-![Screenshot 2024-02-28 174045](https://github.com/CPKhanal/Web-Programming/assets/132903713/33b7248c-3e27-4565-9fa5-1cb7e94c312b)

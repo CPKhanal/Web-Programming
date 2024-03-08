@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DisplayDate</title>
+</head>
+<body>
+    <h1>We are working with javascript HTML events</h1>
+    <p>To check the current date and time click below.</p>
+    <button type="button" id="button">Click Me</button>
+    <p id="par"></p>
+    <script>
+        document.getElementById('button').onclick = displayDate;
+        function displayDate(){
+            document.getElementById('par').innerHTML = Date();
+        }
+    </script>
+</body>
+</html>
